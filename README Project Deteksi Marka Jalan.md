@@ -14,8 +14,13 @@ Markah jalan adalah suatu alat atau benda yang berada di permukaan jalan yang be
 
 Markah jalan digunakan di permukaan jalan untuk mengarahkan dan memberi informasi kepada pengendara maupun pejalan kaki. Keseragaman bentuk markah merupakan faktor penting untuk meminimalkan kebingungan dan keraguan atas arti markah tersebut. Telah ada upaya antarnegara untuk melakukan standardisasi bentuk markah jalan.
 
-Marka jalan membujur utuh adalah tanda lalu lintas berupa garis lurus yang tergambar di tengah-tengah permukaan jalan raya. Fungsinya, bila berada di tengah jalan ialah sebagai larangan bagi kendaraan untuk melintasi garis tersebut atau pun sebagai pembagi lajur kendaraan. 
+Upaya-upaya untuk mengembangkan sistem markah jalan juga telah ada, salah satunya melalui terobosan teknologi seperti retrorefleksi, usia yang lebih lama, dan biaya pemasangan yang lebih murah.
+
+Kini, markah jalan digunakan untuk menyampaikan berbagai informasi kepada pengendara yang mencakup masalah navigasi, keselamatan, dan penegakan hukum. Markah jalan juga digunakan dalam sistem bantuan pengendara tingkat lanjut dan nantinya dalam mobil otonom untuk mengetahui kondisi lingkungan jalan.
+
+Pada project ini saya mendapat Deteksi Marka jalan yang dimana marka jalan pada gambar yang saya ambil yaitu membujur garis utuh. Membujur garis utuh adalah tanda lalu lintas berupa garis lurus yang tergambar di tengah-tengah permukaan jalan raya. Fungsinya, bila berada di tengah jalan ialah sebagai larangan bagi kendaraan untuk melintasi garis tersebut atau pun sebagai pembagi lajur kendaraan. 
 Namun, bila letaknya di tepi jalan, maka fungsinya adalah sebagai tanda peringatan tepi jalur lalu lintas. Makna garis putih lurus adalah pengendara tidak diperbolehkan mendahului kendaraan lain dan tetap berada di jalur masing-masing.
+
 
 - Deteksi marka jalan memiliki kelebihan dan kekurangan yang perlu dipertimbangkan. Berikut adalah beberapa poin yang dapat menjadi kelebihan dan kekurangan deteksi marka jalan:
 
@@ -50,6 +55,8 @@ Kekurangan Deteksi Marka Jalan:
 4. Automatisasi dan Efisiensi Proses: Deteksi marka jalan menggunakan teknologi komputer vision memungkinkan proses deteksi dilakukan secara otomatis. Hal ini mengurangi keterlibatan manusia dalam pengawasan marka jalan secara manual dan meningkatkan efisiensi dalam proses deteksi.
 
 5. Pengembangan Teknologi Kendaraan Mandiri: Deteksi marka jalan merupakan salah satu komponen penting dalam pengembangan kendaraan mandiri (autonomous vehicles). Marka jalan memberikan petunjuk visual yang penting bagi kendaraan untuk menjaga jalur, menghindari rintangan, dan berinteraksi dengan lingkungan jalan.
+
+Deteksi marka jalan memanfaatkan teknologi komputer vision, pengolahan citra, dan pendekatan machine learning untuk mengenali, memisahkan, dan memantau marka jalan dalam gambar atau video. Dalam implementasi deteksi marka jalan, pemilihan metode dan teknik yang sesuai serta penyesuaian parameter-parameter tertentu sangat penting untuk mencapai akurasi dan performa yang optimal.
 
 
 ## Menjelaskan tahapan cara menyelesaikan projek
