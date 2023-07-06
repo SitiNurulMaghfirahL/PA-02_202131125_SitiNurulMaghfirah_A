@@ -35,9 +35,7 @@ Kekurangan Deteksi Marka Jalan:
 
 3. Perawatan dan Perubahan: Marka jalan dapat mengalami pemudaran, aus, atau kerusakan seiring waktu. Ini dapat mempengaruhi deteksi marka jalan jika algoritma tidak mampu mengenali marka jalan yang tidak dalam kondisi baik. Selain itu, perubahan pada marka jalan seperti penambahan atau penghapusan dapat mempengaruhi konsistensi deteksi.
 
-4. Kompleksitas Sistem: Implementasi deteksi marka jalan yang efektif dan akurat seringkali melibatkan penggunaan teknologi yang kompleks seperti komputer vision, machine learning, atau deep learning. Ini memerlukan pemahaman yang baik tentang konsep-konsep tersebut dan penggunaan sumber daya
-
-komputasi yang memadai.
+4. Kompleksitas Sistem: Implementasi deteksi marka jalan yang efektif dan akurat seringkali melibatkan penggunaan teknologi yang kompleks seperti komputer vision, machine learning, atau deep learning. Ini memerlukan pemahaman yang baik tentang konsep-konsep tersebut dan penggunaan sumber daya komputasi yang memadai.
 
 5. Keterbatasan Sumber Daya: Deteksi marka jalan yang kompleks dan real-time membutuhkan sumber daya komputasi yang signifikan, terutama jika digunakan dalam aplikasi di lapangan. Pengolahan gambar dan analisis yang intensif dapat mempengaruhi kinerja sistem secara keseluruhan.
 
@@ -74,12 +72,12 @@ Pada project ini mendeteksi marka jalan menggunakan OpenCV. Berikut adalah tahap
 
 8. Menampilkan Gambar: Terakhir, menggunakan `cv2.imshow()` untuk menampilkan gambar hasil deteksi marka jalan. Kemudian, `cv2.waitKey(0)` menunggu hingga tombol keyboard ditekan sebelum menutup jendela gambar, dan `cv2.destroyAllWindows()` untuk menutup jendela gambar setelah selesai.
 
-Dengan menjalankan kode di atas, Anda dapat melihat hasil deteksi marka jalan pada gambar yang Anda berikan dan memodifikasi parameter-parameter seperti threshold, panjang garis minimum, dan jarak maksimum antara garis-garis yang terhubung untuk mendapatkan hasil yang optimal.
+Dapat dilihat hasil deteksi marka jalan pada gambar yang Anda berikan dan memodifikasi parameter-parameter seperti threshold, panjang garis minimum, dan jarak maksimum antara garis-garis yang terhubung untuk mendapatkan hasil yang optimal.
 
-Pada baris pertama, fig, axs = plt.subplots(1, 2, figsize=(15,5)) menginisialisasi sebuah objek Figure (fig) dan array dari objek Axes (axs) yang memiliki 1 baris dan 2 kolom. figsize=(15,5) menentukan ukuran figure yang akan ditampilkan dengan lebar 15 inci dan tinggi 5 inci.
+9. Pada baris, fig, axs = plt.subplots(1, 2, figsize=(15,5)) menginisialisasi sebuah objek Figure (fig) dan array dari objek Axes (axs) yang memiliki 1 baris dan 2 kolom. figsize=(15,5) menentukan ukuran figure yang akan ditampilkan dengan lebar 15 inci dan tinggi 5 inci.
 
-Pada baris kedua, axs[0].imshow(img) menggunakan imshow() untuk menampilkan gambar img pada sumbu pertama (axs[0]).
+10. Pada baris, axs[0].imshow(img) menggunakan imshow() untuk menampilkan gambar img pada sumbu pertama (axs[0]).
 
-Pada baris ketiga, axs[1].plot(color='green') menggunakan plot() untuk membuat sebuah plot kosong pada sumbu kedua (axs[1]). Parameter color='green' digunakan untuk memberikan warna garis plot menjadi hijau.
+11. Pada baris, axs[1].plot(color='green') menggunakan plot() untuk membuat sebuah plot kosong pada sumbu kedua (axs[1]). Parameter color='green' digunakan untuk memberikan warna garis plot menjadi hijau.
 
-Terakhir, plt.show() digunakan untuk menampilkan plot yang telah dibuat. Namun, perlu diperhatikan bahwa ada kesalahan penulisan pada kode terakhir. Seharusnya, plt.show() ditulis sebagai plt.show()() untuk memanggil fungsi tersebut dan menampilkan plotnya.
+12. Terakhir, plt.show() digunakan untuk menampilkan plot yang telah dibuat. Namun, perlu diperhatikan bahwa ada kesalahan penulisan pada kode terakhir. Seharusnya, plt.show() ditulis sebagai plt.show()() untuk memanggil fungsi tersebut dan menampilkan plotnya.
