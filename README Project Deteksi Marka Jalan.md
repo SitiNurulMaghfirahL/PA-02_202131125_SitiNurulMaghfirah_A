@@ -17,6 +17,43 @@ Markah jalan digunakan di permukaan jalan untuk mengarahkan dan memberi informas
 Marka jalan membujur utuh adalah tanda lalu lintas berupa garis lurus yang tergambar di tengah-tengah permukaan jalan raya. Fungsinya, bila berada di tengah jalan ialah sebagai larangan bagi kendaraan untuk melintasi garis tersebut atau pun sebagai pembagi lajur kendaraan. 
 Namun, bila letaknya di tepi jalan, maka fungsinya adalah sebagai tanda peringatan tepi jalur lalu lintas. Makna garis putih lurus adalah pengendara tidak diperbolehkan mendahului kendaraan lain dan tetap berada di jalur masing-masing.
 
+- Deteksi marka jalan memiliki kelebihan dan kekurangan yang perlu dipertimbangkan. Berikut adalah beberapa poin yang dapat menjadi kelebihan dan kekurangan deteksi marka jalan:
+
+Kelebihan Deteksi Marka Jalan:
+1. Keamanan dan Keselamatan: Deteksi marka jalan dapat meningkatkan keamanan dan keselamatan lalu lintas dengan memberikan informasi visual kepada pengendara. Pengendara dapat mengikuti marka jalan untuk menjaga jalur yang benar, mengambil tindakan pencegahan, atau menyesuaikan kecepatan dengan perubahan kondisi jalan.
+
+2. Efisiensi Lalu Lintas: Deteksi marka jalan dapat membantu dalam pengaturan lalu lintas dan mengoptimalkan penggunaan jalan. Informasi yang diperoleh dari deteksi marka jalan dapat digunakan untuk mengatur rambu lalu lintas, mengatur waktu lampu lalu lintas, atau memberikan panduan kepada sistem navigasi untuk memilih jalur tercepat.
+
+3. Pemeliharaan Jalan: Deteksi marka jalan juga membantu dalam pemeliharaan jalan. Dengan mendeteksi dan memantau kondisi marka jalan secara otomatis, dapat dilakukan pemeliharaan yang tepat waktu seperti perbaikan atau penggantian marka jalan yang rusak atau memudar.
+
+4. Automatisasi dan Efisiensi Proses: Deteksi marka jalan menggunakan teknologi komputer vision memungkinkan proses deteksi dilakukan secara otomatis. Hal ini mengurangi keterlibatan manusia dalam pengawasan marka jalan secara manual dan meningkatkan efisiensi dalam proses deteksi.
+
+Kekurangan Deteksi Marka Jalan:
+1. Tantangan Lingkungan: Deteksi marka jalan dapat menjadi sulit dalam kondisi lingkungan yang rumit, seperti pencahayaan yang buruk, hujan, salju, atau latar belakang yang bising. Variasi kondisi ini dapat mempengaruhi akurasi deteksi marka jalan.
+
+2. Variasi Marka Jalan: Marka jalan dapat memiliki berbagai bentuk, ukuran, dan warna, tergantung pada peraturan lalu lintas yang berlaku di setiap negara atau daerah. Variasi ini dapat menjadi tantangan dalam pengembangan algoritma deteksi yang dapat mengenali berbagai jenis marka jalan dengan akurasi tinggi.
+
+3. Perawatan dan Perubahan: Marka jalan dapat mengalami pemudaran, aus, atau kerusakan seiring waktu. Ini dapat mempengaruhi deteksi marka jalan jika algoritma tidak mampu mengenali marka jalan yang tidak dalam kondisi baik. Selain itu, perubahan pada marka jalan seperti penambahan atau penghapusan dapat mempengaruhi konsistensi deteksi.
+
+4. Kompleksitas Sistem: Implementasi deteksi marka jalan yang efektif dan akurat seringkali melibatkan penggunaan teknologi yang kompleks seperti komputer vision, machine learning, atau deep learning. Ini memerlukan pemahaman yang baik tentang konsep-konsep tersebut dan penggunaan sumber daya
+
+komputasi yang memadai.
+
+5. Keterbatasan Sumber Daya: Deteksi marka jalan yang kompleks dan real-time membutuhkan sumber daya komputasi yang signifikan, terutama jika digunakan dalam aplikasi di lapangan. Pengolahan gambar dan analisis yang intensif dapat mempengaruhi kinerja sistem secara keseluruhan.
+
+- Tujuan utama dari deteksi marka jalan adalah untuk meningkatkan keamanan dan efisiensi lalu lintas dengan mengidentifikasi dan memantau marka jalan pada jalan raya. Berikut tujuan deteksi marka jalan :
+
+1. Keselamatan Pengendara: Salah satu tujuan utama deteksi marka jalan adalah untuk meningkatkan keselamatan pengendara. Dengan mendeteksi marka jalan, sistem dapat memberikan informasi visual kepada pengendara mengenai jalur yang benar, batas kecepatan, atau peringatan tentang bahaya di jalan.
+
+2. Pengaturan Lalu Lintas: Deteksi marka jalan juga digunakan untuk membantu pengaturan lalu lintas. Informasi yang diperoleh dari deteksi marka jalan dapat digunakan untuk mengatur waktu lampu lalu lintas, mengoptimalkan penggunaan jalur, atau memberikan petunjuk kepada sistem navigasi untuk memilih rute yang optimal.
+
+3. Pemeliharaan Jalan: Deteksi marka jalan juga membantu dalam pemeliharaan jalan. Dengan mendeteksi dan memantau kondisi marka jalan secara otomatis, dapat dilakukan pemeliharaan yang tepat waktu seperti perbaikan atau penggantian marka jalan yang rusak atau memudar. Hal ini penting untuk menjaga marka jalan dalam kondisi yang baik agar tetap memberikan petunjuk yang jelas kepada pengendara.
+
+4. Automatisasi dan Efisiensi Proses: Deteksi marka jalan menggunakan teknologi komputer vision memungkinkan proses deteksi dilakukan secara otomatis. Hal ini mengurangi keterlibatan manusia dalam pengawasan marka jalan secara manual dan meningkatkan efisiensi dalam proses deteksi.
+
+5. Pengembangan Teknologi Kendaraan Mandiri: Deteksi marka jalan merupakan salah satu komponen penting dalam pengembangan kendaraan mandiri (autonomous vehicles). Marka jalan memberikan petunjuk visual yang penting bagi kendaraan untuk menjaga jalur, menghindari rintangan, dan berinteraksi dengan lingkungan jalan.
+
+
 ## Menjelaskan tahapan cara menyelesaikan projek
 
 Pada project ini mendeteksi marka jalan menggunakan OpenCV. Berikut adalah tahapan dan cara menyelesaikan projek tersebut:
