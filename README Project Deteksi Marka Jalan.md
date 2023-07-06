@@ -88,3 +88,4 @@ Dapat dilihat hasil deteksi marka jalan pada gambar yang Anda berikan dan memodi
 11. Pada baris, axs[1].plot(color='green') menggunakan plot() untuk membuat sebuah plot kosong pada sumbu kedua (axs[1]). Parameter color='green' digunakan untuk memberikan warna garis plot menjadi hijau.
 
 12. Terakhir, plt.show() digunakan untuk menampilkan plot yang telah dibuat. Namun, perlu diperhatikan bahwa ada kesalahan penulisan pada kode terakhir. Seharusnya, plt.show() ditulis sebagai plt.show()() untuk memanggil fungsi tersebut dan menampilkan plotnya.
+
